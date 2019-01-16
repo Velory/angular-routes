@@ -8,13 +8,17 @@ import { HomePageComponent } from './home-page/home-page.component';
 import {CarsService} from './cars.service';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { CarPageComponent } from './car-page/car-page.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { NewPageComponent } from './new-page/new-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarsPageComponent,
     HomePageComponent,
-    CarPageComponent
+    CarPageComponent,
+    NotFoundComponent,
+    NewPageComponent
   ],
   imports: [
     BrowserModule,
